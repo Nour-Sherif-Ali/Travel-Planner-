@@ -1,59 +1,63 @@
-# TravelPlanner
+🌍 Travel Planner
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Plan your perfect trip with our modern, intuitive travel planning application
 
-## Development server
+Show Image
+Show Image
+Show Image
+Show Image
+📖 Overview
+Travel Planner is a modern, responsive web application that helps users discover destinations, plan trips, and create personalized itineraries. Built with Angular and featuring a clean, intuitive interface, it provides a seamless experience for travel enthusiasts.
+Show Image
+✨ Features
+🏠 Home Page
 
-To start a local development server, run:
+Eye-catching hero section with destination search
+Trending travel destinations
+Travel inspiration gallery
+Quick access to popular trips
 
-```bash
-ng serve
-```
+🗺️ Destinations Explorer
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Interactive destination grid/list view
+Advanced filtering system:
 
-## Code scaffolding
+Filter by region (Asia, Europe, Americas, etc.)
+Budget categories (Budget, Mid-range, Luxury)
+Activities (Adventure, Culture, Beach, etc.)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+Beautiful destination cards with ratings and reviews
+Responsive design for all devices
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📅 Trip Planner
 
-```bash
-ng generate --help
-```
+Interactive itinerary builder
+Date range selection with calendar integration
+Activity planning and scheduling
+Destination recommendations
+Save and manage multiple trip plans
 
-## Building
+💝 Favorites System
 
-To build the project run:
+Save favorite destinations
+Personal wishlist management
+Quick access to saved places
 
-```bash
-ng build
-```
+ℹ️ About & Contact
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Company mission and vision
+Team information
+Contact form with validation
+Integrated map (Google Maps)
 
-## Running unit tests
+🛠️ Technology Stack
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Frontend Framework: Angular 17+
+Language: TypeScript
+Styling: Tailwind CSS / SCSS
+UI Components: Angular Material
+State Management: Angular Services
+Routing: Angular Router with Lazy Loading
+Build Tool: Angular CLI
+Icons: Lucide Icons / Angular Material Icons
