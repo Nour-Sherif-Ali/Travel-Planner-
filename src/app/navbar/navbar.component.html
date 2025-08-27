@@ -1,0 +1,74 @@
+<nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a routerLink="/" class="flex items-center space-x-2">
+              <div class="w-8 h-8 bg-gradient-to-r rounded-lg flex items-center justify-center">
+                <!-- <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 2L3 7v11a1 1 0 001 1h12a1 1 0 001-1V7l-7-5z"/>
+                </svg> -->
+                <img src="../websiteIcon.png" alt="">
+              </div>
+              <span class="text-xl font-bold text-gray-800">TravelPlanner</span>
+            </a>
+          </div>
+          
+          <div class="hidden md:flex items-center space-x-8">
+            <a routerLink="/" routerLinkActive="text-primary-600" [routerLinkActiveOptions]="{exact: true}" 
+               class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
+              Home
+            </a>
+            <a routerLink="/destinations" routerLinkActive="text-primary-600" 
+               class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
+              Destinations
+            </a>
+            <a routerLink="/trip-planner" routerLinkActive="text-primary-600" 
+               class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
+              Plan Trip
+            </a>
+            <a routerLink="/about" routerLinkActive="text-primary-600" 
+               class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
+              About
+            </a>
+            <a routerLink="/contact" routerLinkActive="text-primary-600" 
+               class="text-gray-600 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
+              Contact
+            </a>
+          </div>
+
+          <div class="md:hidden flex items-center">
+            <button (click)="toggleMobileMenu()" class="text-gray-600 hover:text-gray-800">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path [ngClass]="{'hidden': mobileMenuOpen, 'inline-flex': !mobileMenuOpen}" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                <path [ngClass]="{'hidden': !mobileMenuOpen, 'inline-flex': mobileMenuOpen}" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div [ngClass]="{'block': mobileMenuOpen, 'hidden': !mobileMenuOpen}" class="md:hidden bg-white border-t">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a routerLink="/" (click)="closeMobileMenu()" routerLinkActive="text-primary-600 bg-primary-50" [routerLinkActiveOptions]="{exact: true}"
+             class="text-gray-600 hover:text-primary-600 hover:bg-primary-50 block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200">
+            Home
+          </a>
+          <a routerLink="/destinations" (click)="closeMobileMenu()" routerLinkActive="text-primary-600 bg-primary-50"
+             class="text-gray-600 hover:text-primary-600 hover:bg-primary-50 block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200">
+            Destinations
+          </a>
+          <a routerLink="/trip-planner" (click)="closeMobileMenu()" routerLinkActive="text-primary-600 bg-primary-50"
+             class="text-gray-600 hover:text-primary-600 hover:bg-primary-50 block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200">
+            Plan Trip
+          </a>
+          <a routerLink="/about" (click)="closeMobileMenu()" routerLinkActive="text-primary-600 bg-primary-50"
+             class="text-gray-600 hover:text-primary-600 hover:bg-primary-50 block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200">
+            About
+          </a>
+          <a routerLink="/contact" (click)="closeMobileMenu()" routerLinkActive="text-primary-600 bg-primary-50"
+             class="text-gray-600 hover:text-primary-600 hover:bg-primary-50 block px-3 py-2 text-base font-medium rounded-md transition-colors duration-200">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
