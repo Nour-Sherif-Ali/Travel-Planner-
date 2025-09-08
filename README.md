@@ -1,4 +1,4 @@
-🌍 Travel Planner
+## 🌍 Travel Planner
 
 Plan your perfect trip with our modern, intuitive travel planning application
 
@@ -51,7 +51,7 @@ Team information
 Contact form with validation
 Integrated map (Google Maps)
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 Frontend Framework: Angular 17+
 Language: TypeScript
@@ -61,3 +61,8 @@ State Management: Angular Services
 Routing: Angular Router with Lazy Loading
 Build Tool: Angular CLI
 Icons: Lucide Icons / Angular Material Icons
+
+
+## Demo Screenshot
+
+
