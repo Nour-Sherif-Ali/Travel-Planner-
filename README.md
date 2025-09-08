@@ -62,6 +62,9 @@ Routing: Angular Router with Lazy Loading
 Build Tool: Angular CLI
 Icons: Lucide Icons / Angular Material Icons
 
+## Website Link
+travel-planner-sooty-eta.vercel.app
+
 
 ## Demo Screenshot
 <img width="1905" height="557" alt="Travel planner -1" src="https://github.com/user-attachments/assets/5db185fa-d8c8-4d6e-a958-bd3f33383349" />
@@ -77,10 +80,6 @@ Icons: Lucide Icons / Angular Material Icons
 <img width="1396" height="863" alt="travel planner -5 " src="https://github.com/user-attachments/assets/45df4113-badd-48fd-9371-2022b54052a5" />
 
 <img width="1064" height="891" alt="travel planner ABOUT-6 " src="https://github.com/user-attachments/assets/79952a56-540d-4a71-8136-4c6c772f109a" />
-
-
-## Website Link
-travel-planner-sooty-eta.vercel.app
 
 
 <img width="1103" height="861" alt="travel planner ABOUT -7" src="https://github.com/user-attachments/assets/85712af6-d9b9-461d-b93f-232c2be23139" />
