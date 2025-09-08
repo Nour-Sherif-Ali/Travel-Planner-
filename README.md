@@ -64,5 +64,22 @@ Icons: Lucide Icons / Angular Material Icons
 
 
 ## Demo Screenshot
+<img width="1905" height="557" alt="Travel planner -1" src="https://github.com/user-attachments/assets/5db185fa-d8c8-4d6e-a958-bd3f33383349" />
 
 
+<img width="1361" height="902" alt="Travel planner-2" src="https://github.com/user-attachments/assets/cec66d3d-691c-47af-af16-9bae3a1bbf5f" />
+
+
+<img width="1901" height="908" alt="travel planner -3" src="https://github.com/user-attachments/assets/f46e5083-32af-4d8f-a64e-0181ada5f03b" />
+
+<img width="1052" height="906" alt="travel planner -4 " src="https://github.com/user-attachments/assets/bb7e1e42-9cff-40e9-b25a-74084794d911" />
+
+<img width="1396" height="863" alt="travel planner -5 " src="https://github.com/user-attachments/assets/45df4113-badd-48fd-9371-2022b54052a5" />
+
+<img width="1064" height="891" alt="travel planner ABOUT-6 " src="https://github.com/user-attachments/assets/79952a56-540d-4a71-8136-4c6c772f109a" />
+
+
+<img width="1103" height="861" alt="travel planner ABOUT -7" src="https://github.com/user-attachments/assets/85712af6-d9b9-461d-b93f-232c2be23139" />
+
+
+<img width="803" height="861" alt="TRAVEL PLANNER CONTACT US-8 " src="https://github.com/user-attachments/assets/0de405d2-af23-4a5e-b6d3-7746032ad072" />
